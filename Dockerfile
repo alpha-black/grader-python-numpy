@@ -1,3 +1,3 @@
 FROM apluslms/grading-python
 
-RUN pip3 install numpy
+RUN python3.5 -m pip install numpy

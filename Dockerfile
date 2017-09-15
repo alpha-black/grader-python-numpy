@@ -1,4 +1,3 @@
 FROM apluslms/grading-python
 
-RUN apt-get install -qy \
-  python-numpy
+RUN pip3 install numpy
